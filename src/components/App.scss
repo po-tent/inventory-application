@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@import '../partials/scrollbar';
+@import '../partials/type-schema';
+
+#type-container{
+    margin-top: 20px;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:5px;
+    li{
+        display:flex;
+        justify-content: center;
+        list-style: none;
+        cursor:pointer;
+        text-transform: capitalize;
+        border: 2px solid #a4a4a4;
+        border-radius: 5px;
+        min-width: 110px;
+        max-width: 150px;
+        padding-bottom: 2px;
+    }
+    @import '../partials/type-classnames';
+}
+
+#add-type-btn{
+    font-weight: 600;
+    border:none;
+    background: none;
+    cursor: pointer;
+
+    min-width: 113px;
+    max-width: 150px;
+}
+
+article{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px auto 40px;
+}

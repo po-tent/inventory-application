@@ -1,0 +1,132 @@
+@import '../../partials/type-schema';
+@import '../../partials/type-classnames';
+
+$shadow: 1px 1px 2px rgba(0,0,0,0.2);
+$boxshadow: 1px 1px 3px rgba(0,0,0,0.3);
+
+.pokemon-details-page{
+    #mobile-name, #name{
+        text-align:center;
+        text-transform: capitalize;
+        font-size: 30px;
+        text-shadow: $shadow;
+    }
+    #name{
+        display:none;
+    }
+    img{ 
+        width: 80%;
+        margin: auto 10%;
+        background: rgb(236, 236, 236);
+        border-radius: 5px;
+        box-shadow: $boxshadow;
+    }
+    figcaption{
+        background: rgb(236, 236, 236);
+        border-radius: 5px;
+        box-shadow: $boxshadow;
+        padding: 3px;
+        padding-right: 0px;
+        width: 80%;
+        margin: 10px 9.5%;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    }
+    .data-grid{
+       display:flex;
+       gap: 50px;
+       list-style:none;
+       padding-left:50px;
+       background: rgb(241, 31, 31);
+       padding:5px;
+       border-radius: 5px;
+       justify-content: center;
+       align-items:center;
+       width: 60%;
+       margin-left: 50px;
+       font-weight:600;
+       box-shadow: $boxshadow;
+       min-width: 280px;
+       span{
+           color:white;
+       }
+    }
+    .type-grid{
+        padding-left:50px;
+        display:flex;
+        flex-wrap:wrap;
+        gap: 20px;
+        li{
+            list-style: none;
+            cursor:pointer;
+            text-transform: capitalize;
+            border: 2px solid #a4a4a4;
+            border-radius: 5px;
+            text-align: center;
+            font-size:15px;
+            padding: 3px;
+            pointer-events: none;
+            min-width: 70px;
+            max-width: 110px;
+            line-height: 18px;
+            border-radius: 3px;
+        }
+    }
+    .control-btns{
+        margin: 30px 0px;
+        padding-left:50px;
+        min-width: 270px;
+        button{
+            background: none;
+            border: none;
+            border: 2px solid #000000;
+            border-radius: 2px;
+            cursor:pointer;
+            margin-right: 10px;
+        }
+        #disabled{
+            &:hover{
+                color:rgb(241, 31, 31);
+            }
+        }
+    }
+    #psw-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 270px;
+        padding-left:50px;
+        label{
+            color:rgb(241, 31, 31);
+            font-size:12px;
+            font-weight: 600;
+        }
+        input{
+            border-radius: 2px;
+            border:2px solid #000000;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .pokemon-details-page{
+        margin-top: 50px;
+        display:flex;
+        #mobile-name{
+            display:none;
+        }
+        #name{
+            display:block;
+        }
+        img{
+            width: 400px;
+            margin-bottom: 30px;
+        }
+        figcaption{
+            padding: 7px;
+            margin-left: 48px;
+        }
+        .control-btns{
+            margin-top: 80px;
+        }
+    }
+  }

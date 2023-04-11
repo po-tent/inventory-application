@@ -1,0 +1,19 @@
+@mixin type-style-simple($bg, $color){
+    background:$bg;
+    color: $color;
+    transition: 0.2s;
+    &:hover{
+        background:#fff;
+        color:$bg;
+    }
+}
+
+@mixin type-style-gradient($top-color, $bot-color, $text-color){
+    background: linear-gradient(180deg, $top-color 50%, $bot-color 50%);
+    color: $text-color;
+    transition: 0.2s;
+    &:hover{
+        background:#fff;
+        color: $top-color
+    }
+}

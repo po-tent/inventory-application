@@ -1,0 +1,51 @@
+.fire-type{
+    @include type-style-simple(rgb(255, 166, 0), #fff)
+}
+.water-type{
+    @include type-style-simple(#4592c4, #fff)
+}
+.grass-type{
+    @include type-style-simple(#9bcc50, #000000)
+}
+.poison-type{
+    @include type-style-simple(#b97fc9, #fff)
+}
+.flying-type{
+    @include type-style-gradient(#3dc7ef, #bdb9b8, #000000)
+}
+.electric-type{
+    @include type-style-simple(#eed535, #000000)
+}
+.bug-type{
+    @include type-style-simple(#729f3f, #fff)
+}
+.normal-type{
+    @include type-style-simple(#a4acaf, #000000)
+}
+.ground-type{
+    @include type-style-gradient(#f7de3f, #ab9842, #000000)
+}
+.fairy-type{
+    @include type-style-simple(#fdb9e9, #000000)
+}
+.fighting-type{
+    @include type-style-simple(#d56723, #fff)
+}
+.dragon-type{
+    @include type-style-gradient(#53a4cf, #f16e57,#fff)
+}
+.ghost-type{
+    @include type-style-simple(#7b62a3, #fff)
+}
+.rock-type{
+    @include type-style-simple(#a38c21, #fff)
+}
+.ice-type{
+    @include type-style-simple(#51c4e7 , #000000)
+}
+.psychic-type{
+    @include type-style-simple(#f366b9, #fff)
+}
+.default-color{
+    @include type-style-simple(#252525, #fff)
+}

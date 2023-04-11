@@ -1,0 +1,72 @@
+nav{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    background-color: rgb(241, 31, 31);
+    padding: 8px 0px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    img{
+        width: 280px;
+    }
+    #git-icon{
+        color:#f1d621;
+        background:#3580b3;
+        border-radius:50%;
+        transition: 0.7s;
+        &:hover{
+            transform: rotate(360deg);
+        }
+    }
+
+    #add-pokemon-btn{
+        position:absolute;
+        background:none;
+        border:none;
+        cursor: pointer;
+        left: 10px;
+        color:white;
+        border: 2px solid #fff;
+        border-radius: 2px;
+    }
+
+    #menu-button{
+        position:absolute;
+        right: 15px;
+        background:none;
+        border:none;
+        cursor: pointer;
+        transition: 0.5s;
+        color:#fff;
+    }
+    #menu-button:hover{
+        transform: scale(1.1)
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #git-icon{
+        display:none;
+    }
+    nav{
+        img{
+            width: 140px;
+            margin-left: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    nav{
+        img{
+            width:190px;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #menu-button{
+        right: 50px;
+    }
+}

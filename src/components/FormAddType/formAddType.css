@@ -1,0 +1,54 @@
+#type-add-form {
+  margin: 20px auto 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+  gap: 20px;
+}
+
+#type-add-form label {
+  font-weight: 600;
+}
+
+#type-add-form input {
+  padding: 5px;
+  border: 2px solid black;
+  color: #f11f1f;
+  font-weight: 600;
+}
+
+#type-add-form input:focus {
+  outline: none;
+}
+
+#type-add-form button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3px;
+  background: none;
+  border: 2px solid #000000;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#type-add-form button:hover {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+@media only screen and (max-width: 600px) {
+  #type-add-form {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=formAddType.css.map */

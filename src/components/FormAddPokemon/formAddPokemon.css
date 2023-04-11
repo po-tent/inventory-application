@@ -1,0 +1,322 @@
+.fire-type {
+  background: #ffa600;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.fire-type:hover {
+  background: #fff;
+  color: #ffa600;
+}
+
+.water-type {
+  background: #4592c4;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.water-type:hover {
+  background: #fff;
+  color: #4592c4;
+}
+
+.grass-type {
+  background: #9bcc50;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.grass-type:hover {
+  background: #fff;
+  color: #9bcc50;
+}
+
+.poison-type {
+  background: #b97fc9;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.poison-type:hover {
+  background: #fff;
+  color: #b97fc9;
+}
+
+.flying-type {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #3dc7ef), color-stop(50%, #bdb9b8));
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.flying-type:hover {
+  background: #fff;
+  color: #3dc7ef;
+}
+
+.electric-type {
+  background: #eed535;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.electric-type:hover {
+  background: #fff;
+  color: #eed535;
+}
+
+.bug-type {
+  background: #729f3f;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.bug-type:hover {
+  background: #fff;
+  color: #729f3f;
+}
+
+.normal-type {
+  background: #a4acaf;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.normal-type:hover {
+  background: #fff;
+  color: #a4acaf;
+}
+
+.ground-type {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f7de3f), color-stop(50%, #ab9842));
+  background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.ground-type:hover {
+  background: #fff;
+  color: #f7de3f;
+}
+
+.fairy-type {
+  background: #fdb9e9;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.fairy-type:hover {
+  background: #fff;
+  color: #fdb9e9;
+}
+
+.fighting-type {
+  background: #d56723;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.fighting-type:hover {
+  background: #fff;
+  color: #d56723;
+}
+
+.dragon-type {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #53a4cf), color-stop(50%, #f16e57));
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.dragon-type:hover {
+  background: #fff;
+  color: #53a4cf;
+}
+
+.ghost-type {
+  background: #7b62a3;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.ghost-type:hover {
+  background: #fff;
+  color: #7b62a3;
+}
+
+.rock-type {
+  background: #a38c21;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.rock-type:hover {
+  background: #fff;
+  color: #a38c21;
+}
+
+.ice-type {
+  background: #51c4e7;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.ice-type:hover {
+  background: #fff;
+  color: #51c4e7;
+}
+
+.psychic-type {
+  background: #f366b9;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.psychic-type:hover {
+  background: #fff;
+  color: #f366b9;
+}
+
+.default-color {
+  background: #252525;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.default-color:hover {
+  background: #fff;
+  color: #252525;
+}
+
+#pokemon-add-form {
+  margin: 20px 10px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+  min-height: 530px;
+  gap: 20px;
+}
+
+#pokemon-add-form label {
+  font-weight: 600;
+}
+
+#pokemon-add-form input {
+  padding: 5px;
+  border: 2px solid black;
+  color: #f11f1f;
+  font-weight: 600;
+}
+
+#pokemon-add-form input:focus {
+  outline: none;
+}
+
+#pokemon-add-form button {
+  text-align: center;
+  padding: 3px;
+  background: none;
+  border: 2px solid #000000;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#pokemon-add-form button:hover {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+#pokemon-add-form .flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+#pokemon-add-form legend {
+  font-weight: 600;
+}
+
+#pokemon-add-form #type-alert-msg {
+  color: #f11f1f;
+  font-weight: 600;
+  margin: 10px 0px -15px;
+}
+
+#pokemon-add-form fieldset {
+  max-height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+}
+
+#pokemon-add-form fieldset label {
+  border-radius: 3px;
+  border: 2px solid grey;
+  font-size: 14px;
+  padding: 0px 5px;
+  pointer-events: none;
+}
+
+#pokemon-add-form button {
+  color: #fff;
+  background: #000000;
+}
+
+@media only screen and (min-width: 800px) {
+  #pokemon-add-form {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 100px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #pokemon-add-form .flex-wrapper {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=formAddPokemon.css.map */

@@ -1,0 +1,15 @@
+#psw-container-update{
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    label{
+        color:rgb(241, 31, 31);
+        font-size:12px;
+        font-weight: 600;
+    }
+    input{
+        color: black;
+        border-radius: 2px;
+        border:2px solid #000000;
+    }
+}

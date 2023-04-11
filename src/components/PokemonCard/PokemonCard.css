@@ -1,0 +1,262 @@
+section {
+  width: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: capitalize;
+}
+
+section img {
+  width: 100%;
+  background: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section h1 {
+  font-size: 25px;
+  margin: 5px 0px 0px;
+  cursor: pointer;
+  color: #000000;
+  text-shadow: none;
+}
+
+section h1:hover {
+  text-decoration: underline;
+}
+
+section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 17px;
+  margin: 5px 0px 0px;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+section ul .fire-type {
+  background: #ffa600;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .fire-type:hover {
+  background: #fff;
+  color: #ffa600;
+}
+
+section ul .water-type {
+  background: #4592c4;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .water-type:hover {
+  background: #fff;
+  color: #4592c4;
+}
+
+section ul .grass-type {
+  background: #9bcc50;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .grass-type:hover {
+  background: #fff;
+  color: #9bcc50;
+}
+
+section ul .poison-type {
+  background: #b97fc9;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .poison-type:hover {
+  background: #fff;
+  color: #b97fc9;
+}
+
+section ul .flying-type {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #3dc7ef), color-stop(50%, #bdb9b8));
+  background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .flying-type:hover {
+  background: #fff;
+  color: #3dc7ef;
+}
+
+section ul .electric-type {
+  background: #eed535;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .electric-type:hover {
+  background: #fff;
+  color: #eed535;
+}
+
+section ul .bug-type {
+  background: #729f3f;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .bug-type:hover {
+  background: #fff;
+  color: #729f3f;
+}
+
+section ul .normal-type {
+  background: #a4acaf;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .normal-type:hover {
+  background: #fff;
+  color: #a4acaf;
+}
+
+section ul .ground-type {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f7de3f), color-stop(50%, #ab9842));
+  background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .ground-type:hover {
+  background: #fff;
+  color: #f7de3f;
+}
+
+section ul .fairy-type {
+  background: #fdb9e9;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .fairy-type:hover {
+  background: #fff;
+  color: #fdb9e9;
+}
+
+section ul .fighting-type {
+  background: #d56723;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .fighting-type:hover {
+  background: #fff;
+  color: #d56723;
+}
+
+section ul .dragon-type {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #53a4cf), color-stop(50%, #f16e57));
+  background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .dragon-type:hover {
+  background: #fff;
+  color: #53a4cf;
+}
+
+section ul .ghost-type {
+  background: #7b62a3;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .ghost-type:hover {
+  background: #fff;
+  color: #7b62a3;
+}
+
+section ul .rock-type {
+  background: #a38c21;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .rock-type:hover {
+  background: #fff;
+  color: #a38c21;
+}
+
+section ul .ice-type {
+  background: #51c4e7;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .ice-type:hover {
+  background: #fff;
+  color: #51c4e7;
+}
+
+section ul .psychic-type {
+  background: #f366b9;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .psychic-type:hover {
+  background: #fff;
+  color: #f366b9;
+}
+
+section ul .default-color {
+  background: #252525;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+section ul .default-color:hover {
+  background: #fff;
+  color: #252525;
+}
+
+section ul li {
+  list-style: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  border: 2px solid #a4a4a4;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 11px;
+  pointer-events: none;
+  min-width: 70px;
+  max-width: 110px;
+  line-height: 18px;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=pokemonCard.css.map */

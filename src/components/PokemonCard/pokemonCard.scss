@@ -1,0 +1,47 @@
+@import '../../partials/type-schema';
+
+section{
+    // width: 350px;
+    width: 200px;
+    flex-direction: column;
+    text-transform: capitalize; 
+    img{
+        width: 100%;
+        background: rgb(241, 241, 241);
+        border-radius: 5px;
+        cursor:pointer;
+    }
+    h1{
+        font-size: 25px;
+        margin: 5px 0px 0px;
+        cursor:pointer;
+        color:#000000;
+        text-shadow: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    ul{
+        display:flex;
+        flex-wrap:wrap;
+        gap: 17px;
+        margin: 5px 0px 0px;
+        padding: 0px;
+        margin-bottom: 20px;
+        @import '../../partials/type-classnames';
+        li{
+            list-style: none;
+            cursor:pointer;
+            text-transform: capitalize;
+            border: 2px solid #a4a4a4;
+            border-radius: 5px;
+            text-align: center;
+            font-size:11px;
+            pointer-events: none;
+            min-width: 70px;
+            max-width: 110px;
+            line-height: 18px;
+            border-radius: 3px;
+        }
+    }
+}

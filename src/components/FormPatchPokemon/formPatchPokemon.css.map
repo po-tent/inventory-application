@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAA;EACjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,SAAS,EAAE,KAAK;CAWnB;;AAdD,AAII,qBAJiB,CAIjB,KAAK,CAAA;EACD,KAAK,EAAC,OAAgB;EACtB,SAAS,EAAC,IAAI;EACd,WAAW,EAAE,GAAG;CACnB;;AARL,AASI,qBATiB,CASjB,KAAK,CAAA;EACD,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,GAAG;EAClB,MAAM,EAAC,iBAAiB;CAC3B",
+    "sources": [
+        "formPatchPokemon.scss"
+    ],
+    "names": [],
+    "file": "formPatchPokemon.css"
+}
